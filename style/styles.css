@@ -28,6 +28,7 @@ body {
     font-weight: 400;
     line-height: 26px;
     margin-top: 24px;
+    opacity: 0.7;
 }
 
 .section-webdevelopment-description {
@@ -38,6 +39,7 @@ body {
     font-weight: 400;
     line-height: 26px;
     margin-top: 16px;
+    opacity: 0.7;
 }
 
 .section-subtitle {
@@ -134,6 +136,7 @@ nav {
     font-weight: 400;
     line-height: 26px;
     margin-top: 24px;
+    opacity: 0.7;
 
 }
 
@@ -161,11 +164,13 @@ nav {
     margin: 0 auto;
     margin-top: 70px;
     border-radius: 16px;
+    padding:50px  50px;
     background-color: rgba(13, 19, 33, 0.02);
 }
 
 .web-development-content {
     margin: 80px 90px;
+    
     
 }
 
@@ -182,6 +187,25 @@ nav {
     background-image: linear-gradient(90deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
 }
 
-
-
 /* Web development section end here  */
+
+/* Inspiration section start here  */
+.section-inspiration{
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.section-video{
+    padding: 32px;
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.20);
+    margin-top: 70px;
+}
+.section-video iframe{
+    border-radius: 16px;
+    background-image: lightgray 0px -5.621px / 100% 110.681% no-repeat;
+
+}
+
+
+/* Inspiration section end here  */
