@@ -70,8 +70,8 @@ body {
 nav {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    margin-top: 40px;
+    justify-content: space-between;
+    margin: 50px 100px;
 }
 
 .nav-text {
@@ -164,20 +164,20 @@ nav {
     margin: 0 auto;
     margin-top: 70px;
     border-radius: 16px;
-    padding:50px  50px;
+    padding: 50px 50px;
     background-color: rgba(13, 19, 33, 0.02);
 }
 
 .web-development-content {
     margin: 80px 90px;
-    
-    
+
+
 }
 
 .section-content-one,
 .section-content-two,
 .section-content-three {
-    margin-top:32px;
+    margin-top: 32px;
     padding: 48px;
     display: flex;
     justify-content: space-between;
@@ -190,22 +190,87 @@ nav {
 /* Web development section end here  */
 
 /* Inspiration section start here  */
-.section-inspiration{
+.section-inspiration {
     width: 1140px;
     margin: 0 auto;
     margin-top: 70px;
 }
-.section-video{
+
+.section-video {
     padding: 32px;
     border-radius: 16px;
     border: 1px solid rgba(13, 19, 33, 0.20);
     margin-top: 70px;
 }
-.section-video iframe{
+
+.section-video iframe {
     border-radius: 16px;
     background-image: lightgray 0px -5.621px / 100% 110.681% no-repeat;
 
 }
 
-
 /* Inspiration section end here  */
+
+/* Target section start here  */
+.section-target {
+    width: 1140px;
+    height: 460px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.section-target-list {
+    display: flex;
+    gap: 32px;
+    margin-top: 48px;
+}
+
+.section-title-target {
+    color: #0D1321;
+    font-family: "Azeret Mono";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 36px;
+    margin-top: 24px;
+}
+
+.section-description-target {
+    color: #0D1321;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin-bottom: 25px;
+}
+
+.section-card-1 {
+    padding: 40px;
+    border-radius: 16px;
+    background-color: rgba(255, 76, 30, 0.05);
+}
+.section-card-2 {
+    padding: 40px;
+    border-radius: 16px;
+    background-color: rgba(0, 76, 232, 0.05);   
+}
+.section-card-3 {
+    padding: 40px;
+    border-radius: 16px;
+    background-color: rgba(255, 223, 0, 0.05);  
+}
+.btn-target {
+    color: #0D1321;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+    border: none;
+    cursor: pointer;
+}
+
+/* Target section endt here  */
