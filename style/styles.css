@@ -165,7 +165,7 @@ nav {
 
 /* Web development section start here  */
 .web-development {
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
     margin-top: 70px;
     border-radius: 16px;
@@ -196,7 +196,7 @@ nav {
 
 /* Inspiration section start here  */
 .section-inspiration {
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
     margin-top: 70px;
 }
@@ -218,7 +218,7 @@ nav {
 
 /* Target section start here  */
 .section-target {
-    width: 1140px;
+    max-width: 1140px;
     height: 460px;
     margin: 0 auto;
     margin-top: 70px;
@@ -284,8 +284,7 @@ nav {
 /* Target section end here  */
 /* NextTarget section start here  */
 .NextTarget-section {
-    width: 1140px;
-    border: 1px solid red;
+    max-width: 1140px;
     margin: 0 auto;
     margin-top: 111px;
 }
@@ -303,3 +302,103 @@ nav {
 }
 
 /* NextTarget section end here  */
+
+/* footer  start here  */
+
+.footer-section {
+    max-width: 1140px;
+    padding: 64px 48px;
+    margin: 0 auto;
+    border-top: 1px solid red;
+    margin-top: 50px;
+    background-image: url("../images/handshake.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 16px;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), lightgray 50% / cover no-repeat;
+}
+
+.footer-title {
+    color: #FFF;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.footer-description {
+    color: #FFF;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 606px;
+    opacity: 0.7;
+    margin: 0 auto;
+}
+
+input[type="text"] {
+    width: 548px;
+    padding: 19px 20px;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    background: #FFF;
+}
+
+.input-support {
+    color: rgba(13, 19, 33, 0.40);
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btn-submit {
+    width: 120px;
+    padding: 17px 20px;
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 8px;
+    background-color: #FFF;
+    border: none;
+}
+
+.footer-input {
+    margin-top: 24px;
+}
+
+.footer-link {
+    margin: 70px 100px 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-text {
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.footer-icon-logo {
+    width: 36px;
+    height: 36px;
+    margin-left: 24px;
+}
