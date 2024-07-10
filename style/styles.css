@@ -18,7 +18,6 @@ body {
     font-weight: 800;
     line-height: normal;
 }
-
 .section-description {
     color: #0D1321;
     text-align: center;
@@ -30,7 +29,6 @@ body {
     margin-top: 24px;
     opacity: 0.7;
 }
-
 .section-webdevelopment-description {
     color: #0D1321;
     font-family: "Azeret Mono";
@@ -41,7 +39,6 @@ body {
     margin-top: 16px;
     opacity: 0.7;
 }
-
 .section-subtitle {
     color: rgba(13, 19, 33, 0.70);
     font-family: "Azeret Mono";
@@ -50,7 +47,6 @@ body {
     font-weight: 700;
     line-height: 36px;
 }
-
 .btn-more {
     padding: 12px 20px;
     border: 1px solid #0D1321;
@@ -65,7 +61,11 @@ body {
     margin-top: 32px;
     cursor: pointer;
 }
-
+.text-width{
+    width: 852px;
+    height: auto;
+    margin: 20px auto
+}
 /* navbar start here  */
 nav {
     display: flex;
@@ -176,7 +176,6 @@ nav {
 .web-development-content {
     margin: 80px 90px;
 
-
 }
 
 .section-content-one,
@@ -280,6 +279,11 @@ nav {
     border: none;
     cursor: pointer;
 }
+.btn-target a{
+    color: #0D1321;
+    
+}
+
 
 /* Target section end here  */
 /* NextTarget section start here  */
@@ -309,17 +313,18 @@ nav {
     max-width: 1140px;
     padding: 64px 48px;
     margin: 0 auto;
-    border-top: 1px solid red;
     margin-top: 50px;
     background-image: url("../images/handshake.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     border-radius: 16px;
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), lightgray 50% / cover no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
 }
 
 .footer-title {
